@@ -483,7 +483,7 @@ section.contact{
 /*//////////////////// Footer Section CSS///////////////////// */
 
 footer{
-    background: var(--dark);
+    background: #034345;
     text-align: center;
     padding: 3rem 0;
 }
@@ -494,17 +494,36 @@ footer .footer-logo{
 }
 
 footer .footer-cocials a{
-    margin: 1rem;
+    background: var(--dark);
+    display: flex;
+    float: left;
+    margin: 10px 20px 0;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    margin-right: 0.6rem;             /* imp*/
+    text-decoration: none;
 }
 
-footer .footer-cocials{
+footer .footer-cocials {
     margin-bottom: 1rem;
     margin-right: -1rem;
+    margin-left: 38%;
+}
+.footer-cocials a:hover {
+    background: var(--ternary);
+    
+
+}
+footer .copyright{
+    color: #898989;
 }
 
-footer .copyright{
-    color: var(--ternary);
-}
+
+
 
 
 
