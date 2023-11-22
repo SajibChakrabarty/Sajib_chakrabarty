@@ -483,7 +483,7 @@ section.contact{
 /*//////////////////// Footer Section CSS///////////////////// */
 
 footer{
-    background: var(--dark);
+    background: #b66060;
     text-align: center;
     padding: 3rem 0;
 }
@@ -499,11 +499,12 @@ footer .footer-cocials a{
 
 footer .footer-cocials{
     margin-bottom: 1rem;
-    margin-right: -1rem;
+    margin-right: -1rem;    
 }
 
+
 footer .copyright{
-    color: var(--ternary);
+    color: chartreuse;
 }
 
 
