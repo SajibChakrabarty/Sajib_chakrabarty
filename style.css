@@ -483,7 +483,11 @@ section.contact{
 /*//////////////////// Footer Section CSS///////////////////// */
 
 footer{
+<<<<<<< HEAD
     background: #034345;
+=======
+    background: #b66060;
+>>>>>>> 348c48222e0d20e31974846bdea51b7b5306c3a1
     text-align: center;
     padding: 3rem 0;
 }
@@ -510,6 +514,7 @@ footer .footer-cocials a{
 
 footer .footer-cocials {
     margin-bottom: 1rem;
+<<<<<<< HEAD
     margin-right: -1rem;
     margin-left: 38%;
 }
@@ -524,6 +529,15 @@ footer .copyright{
 
 
 
+=======
+    margin-right: -1rem;    
+}
+
+
+footer .copyright{
+    color: chartreuse;
+}
+>>>>>>> 348c48222e0d20e31974846bdea51b7b5306c3a1
 
 
 
